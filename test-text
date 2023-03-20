@@ -6,14 +6,11 @@ Test, 1.
 Test, 2.
 Test, 3.
 
-let test = "Testing, ";
-
-function tester(var, n) {
-  let testStr = "";
-  for (let i = 0; i <= n; i++) {
-    testStr.push(test);
-    testStr.push(num.toString(n));
-    testStr.push(" ");
-    }
-  return testStr;
-}
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Test</h1>
+    <p>Testing, testing, 1, 2, 3.</p>
+  </body>
+</html>
